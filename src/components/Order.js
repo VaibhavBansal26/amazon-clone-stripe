@@ -34,11 +34,11 @@ function Order({id,amount,amountShipping,items,timestamp,images}) {
                          <img src={image} alt="" key={i} className="h-20 object-contain sm:h-32"/> 
                     ))}
                 </div>
-                <p className="flex space-x-14 px-3.5 py-2 items-center overflow-x-auto md:space-x-24 px-24 lg:space-x-24 px-24">
+                {/* <p className="flex space-x-14 px-3.5 py-2 items-center overflow-x-auto md:space-x-24 px-24 lg:space-x-24 px-24">
                 {m.map((qty,i) =>(   
                             <i key ={i} className="bg-gray-100 text-gray-500 rounded-full h-6 w-6 text-center p-0.2 font-bold">{qty}</i>
                             
-                ))}</p>
+                ))}</p> */}
                 
             </div>
             
